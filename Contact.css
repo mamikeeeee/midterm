@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   background-color: black;
+}
+h2{
+    color: white;
+    text-decoration: line-through;
+}
+a{
+    padding-right: 2rem;
+    text-decoration: none;
+    color: rgb(254, 250, 250);
+    font-size: 20px;
+}
+.b{
+    padding: 0px;
+    font-size: 30px;
+    padding-left: 200px;
+   
+}
+.c{
+  padding: 3px;
+    font-size: 30px;
+    
+   
+}
+
+i{
+    color: rgb(248, 245, 245);
+    
+}
+
+.menu-box {
+    display: none;
+}
+
+
+.section-b {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    background-image: radial-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.7)) ,url('red.png');
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    
+
+}
+.boxes {
+    width: 70%;
+    border-left: 1px solid gray;
+    transition: 0.3s ease-in-out;
+    border-right: 1px solid gray;
+
+    
+}
+input {
+    width: 60%;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+input::placeholder {
+    font-size: 20px;
+    padding-left: 15px;
+}
+textarea {
+    width: 60%;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    border-radius: 5px;
+}
+textarea::placeholder {
+    padding: 15px;
+    font-size: 20px;
+
+}
+.send {
+    width: 18%;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 370px;
+   
+    background-color: rgb(249, 142, 142);
+    color:  rgb(0, 0, 0);
+    transition: 0.3s ease-in-out;
+    border: none;
+    border-top-right-radius: 200px  ;
+   
+   
+}
+.send:hover {
+    background-color: rgba(92, 252, 255, 0.738);
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+.add {
+    color: rgb(250, 248, 248);
+    padding-top: 15px;
+    font-size: 30px;
+    margin-left: 35px;
+    font-size: 40px;
+}
+.twooo {
+    width: 70%;
+}
+.adddesc {
+    width: 60%;
+    line-height: 25px;
+    margin-left: 35px;
+    color: rgb(221, 214, 214);
+    padding-bottom: 100px ;
+    font-size: 15px;
+  
+}
+.sub {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.a {
+    margin-top: 70px;
+
+}
+.section-c {
+    width: 100%;
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    transition:0.3s ease-in-out;
+    background-color: rgb(5, 1, 1);
+}
+.add{
+    padding-bottom: 30px;
+}
+
+.c{
+    padding-left: 30px;
+}
