@@ -178,6 +178,7 @@ body{
     width: 1000px;
     background-image: url(yellow.jpg);
     background-size:cover ;
+    height: 20px;
   
     
     
@@ -185,4 +186,7 @@ body{
 .c-holder:hover {
     box-shadow: 0 0 40px rgb(222, 245, 74);
   
+}
+.second-box{
+    padding-right: 1rem;
 }
